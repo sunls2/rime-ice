@@ -1,0 +1,17 @@
+patch:
+  schema_list:
+    - schema: double_pinyin_flypy
+    - schema: rime_ice
+  menu:
+    page_size: 9  # 候选词个数
+  ascii_composer:
+    good_old_caps_lock: true
+    switch_key:
+      Caps_Lock: noop
+      Shift_L: noop
+      Shift_R: noop
+      Control_L: noop
+      Control_R: noop
+
+  switcher/hotkeys:
+    - Control+Shift+1
